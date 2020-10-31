@@ -11,7 +11,7 @@
     <form class="container">
         <h2>Search Parameters</h2>
         <label>Search Term:</label>
-        <input class="search-option" type="text">
+        <input id="search-term" class="search-option" type="text">
         <label>Number of Records to Retrieve:</label>
         <select class="search-option" id="number-of-records">
             <option value="1">1</option>
@@ -19,16 +19,19 @@
             <option value="10">10</option>
         </select>
         <label>Start Year (Optional):</label>
-        <input class="search-option" type= "text"></input>
+        <input id="start-year" class="search-option" type= "text"></input>
         <label>End Year(Optional):</label>
-        <input class="search-option" type= "text"></input>
+        <input  id="end-year" class="search-option" type= "text"></input>
         <div class="button-container">
-            <button type="submit">Search</button>
+            <button id="search" type="submit">Search</button>
             <button>Clear Results</button>
         </div>
     </form>
     <div class="container">
         <h2>Top Articles</h2>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./assets/script.js"></script>
 </body>
 </html>
