@@ -26,7 +26,9 @@ header {
 
 h2 {
     background-color: #20315A;
+    color: white;
     margin-top: 0;
+    margin-bottom: 10px;
     padding: 5px;
     
 }
@@ -43,7 +45,7 @@ h2 {
 }
 
 #number-of-records{ 
-    width: 91%;
+    width: 90.5%;
     height: 48px;
 }
 
@@ -52,6 +54,7 @@ label {
     color: black;
     font-size: 18px;
     padding-left: 4.5%; 
+    
 }
 
 button {
@@ -66,4 +69,18 @@ button {
 .button-container {
     margin-left: 4.5%;
     margin-bottom: 40px;
+}
+
+#results-display {
+    color: black;
+}
+
+.resultCard {
+    font-size: 20px;
+    width: 95%;
+    height: 30px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
 }
